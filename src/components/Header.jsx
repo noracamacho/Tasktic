@@ -4,11 +4,12 @@ import Logo from '../assets/logo.svg';
 
 const Header = () => {
 
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState(JSON.parse(localStorage.getItem("theme")) || 'medium');
 
   document.documentElement.classList.add(theme);
 
   useEffect(() => {
+    localStorage.setItem("theme", JSON.stringify(theme));
     document.documentElement.removeAttribute('class');
     document.documentElement.classList.add(theme);
 
