@@ -26,8 +26,8 @@ const Header = () => {
           <span onClick={() => setTheme("medium")} className={ theme === "medium" ? "medium activeTheme" : "medium"}></span>
           <span onClick={() => setTheme("dark")} className={ theme === "dark" ? "dark activeTheme" : "dark"}></span>
           <span onClick={() => setTheme("blueTheme")} className={ theme === "blueTheme" ? "blueTheme activeTheme" : "blueTheme"}></span>
-          <span onClick={() => setTheme("gradientTwo")} className={ theme === "gradientTwo" ? "gradientTwo activeTheme" : "gradientTwo"}></span>
-          <span onClick={() => setTheme("gradientThree")} className={ theme === "gradientThree" ? "gradientThree activeTheme" : "gradientThree"}></span>
+          <span onClick={() => setTheme("pinkTheme")} className={ theme === "pinkTheme" ? "pinkTheme activeTheme" : "pinkTheme"}></span>
+          <span onClick={() => setTheme("purpleTheme")} className={ theme === "purpleTheme" ? "purpleTheme activeTheme" : "purpleTheme"}></span>
         </div>
     </header>
   )

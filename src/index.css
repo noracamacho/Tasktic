@@ -41,19 +41,16 @@
 }
 
 .blueTheme{
-  background-color: #1061db;
+  background-color: #0a3473;
   transition: all 500ms;
 }
-.gradientTwo{
-  /* background: linear-gradient(235deg, #FFFFFF 0%, #000F25 100%), linear-gradient(180deg, #6100FF 0%, #000000 100%), linear-gradient(235deg, #FFA3AC 0%, #FFA3AC 40%, #00043C calc(40% + 1px), #00043C 60%, #005D6C calc(60% + 1px), #005D6C 70%, #00C9B1 calc(70% + 1px), #00C9B1 100%), linear-gradient(125deg, #FFA3AC 0%, #FFA3AC 40%, #00043C calc(40% + 1px), #00043C 60%, #005D6C calc(60% + 1px), #005D6C 70%, #00C9B1 calc(70% + 1px), #00C9B1 100%);
-  background-blend-mode: soft-light, screen, darken, normal; */
-  background-color: #FFA3AC;
+.pinkTheme{
+  background-color: #DE95BA ;
   transition: all 500ms;
 }
 
-.gradientThree{
-  background: linear-gradient(125deg, #FFFFFF 0%, #000000 100%), linear-gradient(200deg, #FFD9E8 0%, #FFD9E8 50%, #DE95BA calc(50% + 1px), #DE95BA 60%, #7F4A88 calc(60% + 1px), #7F4A88 75%, #4A266A calc(75% + 1px), #4A266A 100%), linear-gradient(113deg, #FFD9E8 0%, #FFD9E8 40%, #DE95BA calc(40% + 1px), #DE95BA 50%, #7F4A88 calc(50% + 1px), #7F4A88 70%, #4A266A calc(70% + 1px), #4A266A 100%);
-  background-blend-mode: overlay, overlay, normal;
+.purpleTheme{
+  background-color: #7F4A88 ;
   transition: all 500ms;
 }
 
@@ -129,8 +126,7 @@ header .themeSelector .activeTheme{
 }
 
 .addTask form button{
-  /* background-color: #03ba5c; */
-  background-color: #000;
+  background-color: #32363a;
   color: #FFFFFF;
   border: none;
   padding: 5px 20px;
@@ -140,9 +136,7 @@ header .themeSelector .activeTheme{
 }
 
 .addTask form button:hover{
-  /* background-color: #03b056; */
-  background-color: #32363a;
-
+  background-color: #000;
 }
 
 .showTask{
@@ -178,25 +172,22 @@ header .themeSelector .activeTheme{
 .showTask .count{
   background-color: #dfdfdf;
   color: #525252;
-  padding: 5px 10px;
+  padding: 3px 10px;
   border-radius: 50%;
   margin-left: 10px;
   user-select: none;
 }
 
 .showTask .clearAll{
-  background-color: #000;
-  /* background-color: #0f6af3; */
+  background-color: #32363a;
   color: #FFFFFF;
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
-  /* float: right; */
 }
 
 .showTask .clearAll:hover{
-  /* background-color: #1061db; */
-  background-color: #32363a;
+  background-color: #000;
 }
 
 .showTask ul{
@@ -216,8 +207,7 @@ header .themeSelector .activeTheme{
   width: 350px;
   box-shadow: var(--box-shadow);
   border-radius: 5px;
-  border-left: 5px solid #000;
-  /* border-left: 5px solid #1163deaf; */
+  border-left: 5px solid #32363a;
 }
 
 .showTask li:hover{
@@ -242,7 +232,7 @@ header .themeSelector .activeTheme{
 
 .showTask i.bi-pencil-square{
   font-size: 18px;
-  color: #1363DF;
+  color: #6e6e6e;
   cursor: pointer;
 }
 
