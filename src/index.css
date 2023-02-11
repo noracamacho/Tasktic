@@ -24,6 +24,9 @@
   margin: auto;
   padding: 10px 10px;;
 }
+.add__input{
+  width: 80%;
+}
 
 .light{
   background-color: #FFFFFF;
@@ -114,7 +117,7 @@ header .themeSelector .activeTheme{
 }
 
 .addTask form input{
-  flex-grow: 1;
+  /* flex-grow: 1; */
   padding: 5px 5px;
   border: 1px solid #eaeaea;
   border-radius: 5px;
@@ -242,8 +245,30 @@ header .themeSelector .activeTheme{
   cursor: pointer;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .showTask li{
     width: 100%;
   }
+  .add__input{
+    width: 80%;
+  }
 }
+@media only screen and (max-width: 480px) {
+  .App{
+    margin: 0 5px;
+  }
+  .add__input{
+    width: 80%;
+  }
+}
+
+
+@media only screen and (max-width: 350px) {
+  .App{
+    margin: 0 5px;
+  }
+  .add__input{
+    max-width: 12.5rem;
+  }
+}
+

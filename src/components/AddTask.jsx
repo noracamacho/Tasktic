@@ -32,9 +32,9 @@ const AddTask = ({ taskList, setTaskList, task, setTask }) => {
 
   return (
     <section className="addTask">
-      <form onSubmit={handleSubmit}>
+      <form className='form__input' onSubmit={handleSubmit}>
         {/* If task.name is undefined, then the value is empty so we avoid any error */}
-        <input type="text" name='task' value={task.name || ""} autoComplete='off' placeholder='Add Task' maxLength={25} onChange={ e => setTask({...task, name: e.target.value})}/>
+        <input className='add__input' type="text" name='task' value={task.name || ""} autoComplete='off' placeholder='Add Task' maxLength={25} onChange={ e => setTask({...task, name: e.target.value})}/>
         <button type='submit'>{task.id ? 'Update' : 'Add'}</button>
       </form>
     </section>
